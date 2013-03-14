@@ -21,6 +21,7 @@
 		8967837E16F1B7A400037DF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8967835F16F1B7A300037DF7 /* Foundation.framework */; };
 		8967838616F1B7A400037DF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8967838416F1B7A400037DF7 /* InfoPlist.strings */; };
 		8967838916F1B7A400037DF7 /* DesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8967838816F1B7A400037DF7 /* DesignPatternsTests.m */; };
+		89B875B916F1BBCB008E6BF3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 89B875B816F1BBCB008E6BF3 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8967838516F1B7A400037DF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8967838716F1B7A400037DF7 /* DesignPatternsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatternsTests.h; sourceTree = "<group>"; };
 		8967838816F1B7A400037DF7 /* DesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsTests.m; sourceTree = "<group>"; };
+		89B875B816F1BBCB008E6BF3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		8967835116F1B7A300037DF7 = {
 			isa = PBXGroup;
 			children = (
+				89B875B816F1BBCB008E6BF3 /* README */,
 				8967836316F1B7A300037DF7 /* DesignPatterns */,
 				8967838116F1B7A400037DF7 /* DesignPatternsTests */,
 				8967835C16F1B7A300037DF7 /* Frameworks */,
@@ -227,6 +230,7 @@
 				8967837016F1B7A300037DF7 /* Default.png in Resources */,
 				8967837216F1B7A300037DF7 /* Default@2x.png in Resources */,
 				8967837416F1B7A300037DF7 /* Default-568h@2x.png in Resources */,
+				89B875B916F1BBCB008E6BF3 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				8967838E16F1B7A400037DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8967838F16F1B7A400037DF7 /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +448,7 @@
 				8967839116F1B7A400037DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
